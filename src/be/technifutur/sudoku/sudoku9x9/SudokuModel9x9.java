@@ -7,11 +7,7 @@ public class SudokuModel9x9 implements SudokuModel {
 
     public SudokuModel9x9() {
         this.tab = new char[getMaxLine()][getMaxColumn()];
-        for (int i = 0; i < tab.length; i++) {
-            for (int j = 0; j < tab.length; j++) {
-                tab[i][j] = EMPTY;
-            }
-        }
+        initTab();
     }
 
     @Override
@@ -54,9 +50,22 @@ public class SudokuModel9x9 implements SudokuModel {
 
     @Override
     public Boolean isValueValid(char value) {
-        if((int) value <= 9){
-            return true;
+        return (int) value <= 9;
+    }
+
+    public Boolean isEmpty(int line, int col){
+        return this.tab[line][col] == EMPTY;
+    }
+
+    public void clearCell(int line, int col){
+        tab[line][col] = EMPTY;
+    }
+
+    public void initTab(){
+        for (int i = 0; i < tab.length; i++) {
+            for (int j = 0; j < tab.length; j++) {
+                this.tab[i][j] = EMPTY;
+            }
         }
-        return false;
     }
 }

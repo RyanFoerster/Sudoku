@@ -2,7 +2,7 @@ package be.technifutur.sudoku;
 
 public interface SudokuModel {
 
-    char EMPTY = 'E';
+    char EMPTY = '.';
     /**
      * Retourne le nombre de cellule valide du sudoku
      * @return le nombre de cellule
