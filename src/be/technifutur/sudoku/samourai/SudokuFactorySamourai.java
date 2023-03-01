@@ -11,14 +11,14 @@ import java.util.Scanner;
 public class SudokuFactorySamourai implements ModelFactory {
 
     @Override
-    public SudokuModel getModel(String fileName) {
+    public SudokuModel getModel(String fileName){
         File file = new File(fileName);
         SudokuModelSamourai samourai = new SudokuModelSamourai();
         int cpt = 0;
 
         try(Scanner sc = new Scanner(file)){
             while(sc.hasNextLine()){
-                String line =sc.nextLine();
+                String line = sc.nextLine();
                 for (int i = 0; i < samourai.getMaxLine(); i++) {
                     samourai.setValue(cpt, i,line.charAt(i));
                 }
