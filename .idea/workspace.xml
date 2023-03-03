@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c70cc6-3f5d-4409-a86d-2b02b0100543" name="Changes" comment="ajout model">
+    <list default="true" id="61c70cc6-3f5d-4409-a86d-2b02b0100543" name="Changes" comment="Presque tout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressource/sudokuSamourai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ressource/sudokuSamourai.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/ModelFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/samourai/SudokuFactorySamourai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/samourai/SudokuFactorySamourai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/samourai/SudokuModelSamourai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/samourai/SudokuModelSamourai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/samourai/SudokuVueSamourai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/samourai/SudokuVueSamourai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuFactory4x4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuFactory4x4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuModel4x4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuModel4x4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuVue4x4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuVue4x4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuFactory9x9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuFactory9x9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuModel9x9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuModel9x9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuVue9x9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuVue9x9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +54,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.technifutur.sudoku.Main" />
+      <module name="Sudoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.technifutur.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

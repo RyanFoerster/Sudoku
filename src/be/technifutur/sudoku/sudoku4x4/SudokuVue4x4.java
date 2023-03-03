@@ -7,12 +7,13 @@ public class SudokuVue4x4 implements SudokuVue {
 
     private SudokuModel4x4 model;
     private static String format = """
+              1 2   3 4
             +-----+-----+
-            | . . | . . |
-            | . . | . . |
+          1 | . . | . . |
+          2 | . . | . . |
             +-----+-----+
-            | . . | . . |
-            | . . | . . |
+          3 | . . | . . |
+          4 | . . | . . |
             +-----+-----+
             """.replace(".", "%s");
 

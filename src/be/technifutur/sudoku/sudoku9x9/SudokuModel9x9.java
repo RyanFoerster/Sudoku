@@ -50,7 +50,15 @@ public class SudokuModel9x9 implements SudokuModel {
 
     @Override
     public Boolean isValueValid(char value) {
-        return (int) value <= 9;
+        // regarde si la valeur est acceptable
+        char[] tmp = {'1','2','3','4','5','6','7','8','9'};
+        boolean isValid = false;
+        int i = 0;
+        while (!isValid && i < tmp.length){
+            if (tmp[i] == value) isValid = true;
+            i++;
+        }
+        return isValid;
     }
 
     public Boolean isEmpty(int line, int col){

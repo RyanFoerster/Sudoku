@@ -36,13 +36,12 @@ public class SudokuModel4x4 implements SudokuModel {
     }
 
     @Override
-    public Boolean isPositionValid(int line, int col) {
-        boolean isValid = false;
-        try {
-            if (line - 1 < getMaxLine() && line - 1 >= 0 && col - 1 >= 0 && col - 1 < getMaxColumn()) {
-                isValid = true;
-            }
-        }catch (ArrayIndexOutOfBoundsException e){
+    public Boolean isPositionValid(int lineNumber, int columnNumber) {
+        // regarde si la valeur peut etre posé à cette position
+        boolean isValid = true;
+        if ((lineNumber >= tab.length || lineNumber <= 0)
+                && (columnNumber >= tab.length|| columnNumber <= 0))
+        {
             isValid = false;
         }
         return isValid;
@@ -50,7 +49,15 @@ public class SudokuModel4x4 implements SudokuModel {
 
     @Override
     public Boolean isValueValid(char value) {
-        return (int) value <= 9;
+        // regarde si la valeur est acceptable
+        char[] tmp = {'1','2','3','4'};
+        boolean isValid = false;
+        int i = 0;
+        while (!isValid && i < tmp.length){
+            if (tmp[i] == value) isValid = true;
+            i++;
+        }
+        return isValid;
     }
 
     public Boolean isEmpty(int line, int col){

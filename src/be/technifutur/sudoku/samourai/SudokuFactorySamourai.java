@@ -2,6 +2,7 @@ package be.technifutur.sudoku.samourai;
 
 import be.technifutur.sudoku.ModelFactory;
 import be.technifutur.sudoku.SudokuModel;
+import be.technifutur.sudoku.SudokuVue;
 import be.technifutur.sudoku.sudoku4x4.SudokuModel4x4;
 
 import java.io.File;
@@ -28,5 +29,16 @@ public class SudokuFactorySamourai implements ModelFactory {
             System.out.println("Le fichier n'existe pas !");
         }
         return samourai;
+    }
+
+    @Override
+    public SudokuVue getVue(String fileName) {
+        SudokuVueSamourai vueSamourai = new SudokuVueSamourai((SudokuModelSamourai) this.getModel("ressource\\sudokuSamourai.txt"));
+
+        System.out.println("\n-------------------Sudoku Samourai--------------------");
+        System.out.println(vueSamourai.getScreen());
+        System.out.println("\n------------------------------------------------------");
+
+        return vueSamourai;
     }
 }

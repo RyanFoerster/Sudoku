@@ -1,0 +1,53 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"61c70cc6-3f5d-4409-a86d-2b02b0100543\" name=\"Changes\" comment=\"ajout model\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/Main.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/Main.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/SudokuModel.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/SudokuModel.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/SudokuModel.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/SudokuModel.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuModel4x4.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuModel4x4.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuModel9x9.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuModel9x9.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MPFZVIbY9vnUKL4axZdGkC0b42\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/studentdev03/Documents/java/Decouverte\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"61c70cc6-3f5d-4409-a86d-2b02b0100543\" name=\"Changes\" comment=\"\" />\r\n      <created>1677661369130</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1677661369130</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"commit initial\">\r\n      <created>1677663617810</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677663617810</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commit initial\">\r\n      <created>1677663639014</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677663639014</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"ajout model\">\r\n      <created>1677671584808</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1677671584808</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"commit initial\" />\r\n    <MESSAGE value=\"ajout model\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ajout model\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bb8e35231194f5c36797434a604a69339f70d766)
++++ b/.idea/workspace.xml	(date 1677685247754)
+@@ -4,15 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="61c70cc6-3f5d-4409-a86d-2b02b0100543" name="Changes" comment="ajout model">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/Main.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/SudokuModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/be/technifutur/sudoku/SudokuModel.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/SudokuModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/SudokuModel.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuModel4x4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku4x4/SudokuModel4x4.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuModel9x9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/sudoku/sudoku9x9/SudokuModel9x9.java" afterDir="false" />
+-    </list>
++    <list default="true" id="61c70cc6-3f5d-4409-a86d-2b02b0100543" name="Changes" comment="Presque tout" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -74,7 +66,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1677671584808</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Presque tout">
++      <created>1677685222201</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1677685222201</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -91,6 +90,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="commit initial" />
+     <MESSAGE value="ajout model" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ajout model" />
++    <MESSAGE value="Presque tout" />
++    <option name="LAST_COMMIT_MESSAGE" value="Presque tout" />
+   </component>
+ </project>
+\ No newline at end of file

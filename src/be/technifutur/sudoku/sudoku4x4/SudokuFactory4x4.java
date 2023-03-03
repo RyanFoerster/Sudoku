@@ -2,6 +2,7 @@ package be.technifutur.sudoku.sudoku4x4;
 
 import be.technifutur.sudoku.ModelFactory;
 import be.technifutur.sudoku.SudokuModel;
+import be.technifutur.sudoku.SudokuVue;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -28,5 +29,16 @@ public class SudokuFactory4x4 implements ModelFactory {
             System.out.println("Le fichier n'existe pas !");
         }
         return s4x4;
+    }
+
+    @Override
+    public SudokuVue getVue(String fileName) {
+        SudokuVue4x4 vue = new SudokuVue4x4((SudokuModel4x4) this.getModel(fileName));
+
+        System.out.println("\n-------------------Sudoku 4x4-------------------------");
+        System.out.println(vue.getScreen());
+        System.out.println("\n------------------------------------------------------");
+
+        return vue;
     }
 }

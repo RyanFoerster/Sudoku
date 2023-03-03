@@ -6,6 +6,7 @@ import be.technifutur.sudoku.sudoku9x9.SudokuModel9x9;
 public class SudokuModelSamourai implements SudokuModel {
     private final char[][] tab;
     private SudokuModel9x9 s9x9 = new SudokuModel9x9();
+
     public SudokuModelSamourai() {
         this.tab = new char[getMaxLine()][getMaxColumn()];
         initTab();
@@ -50,7 +51,15 @@ public class SudokuModelSamourai implements SudokuModel {
 
     @Override
     public Boolean isValueValid(char value) {
-        return null;
+        // regarde si la valeur est acceptable
+        char[] tmp = {'1','2','3','4','5','6','7','8','9'};
+        boolean isValid = false;
+        int i = 0;
+        while (!isValid && i < tmp.length){
+            if (tmp[i] == value) isValid = true;
+            i++;
+        }
+        return isValid;
     }
 
     public Boolean isEmpty(int line, int col){
